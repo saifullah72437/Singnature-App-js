@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Handwritten Digital Signature App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
+</head>
+<body>
+  <div class="main">
+    <h1>e-Signature App</h1>
+    <div class="inputdiv">
+      <div>
+       <input type="color" id="pencolor" value="#000000">
+       <label for="pencolor">Pen Color</label>
+      </div>
+     <div>
+       <input type="color" id="papercolor" value="#14B8A6">
+       <label for="papercolor" >Paper Color</label>
+     </div>
+     </div>
+     <canvas id="signatureCanvas" width="400" height="200"></canvas>
+   <br>
+   <div class="btndiv">
+     <button id="clearButton">Clear</button>
+   <button id="downloadbtn">Download</button>
+   </div>
+   </div>
+   
+  <script src="script.js"></script>
+</body>
+</html>
