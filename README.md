@@ -3,7 +3,7 @@ I developed this digital e signature app in HTML, CSS and JS
 
 # E-Signature Web App
 
-![E-Signature Web App](https://saifullah72437.github.io/Singnature-App-js/)
+[E-Signature Web App](https://saifullah72437.github.io/Singnature-App-js/)
 
 ## Overview
 
